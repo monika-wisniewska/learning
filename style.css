@@ -2,6 +2,11 @@ body {
     background: #e9d4d2;
 }
 
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
 #top {
     background:#d3b6c2;
 }
@@ -18,4 +23,12 @@ h3 {
 }
 .description {
     color: #bd4021;
+    border-bottom: 3px dashed #b999a6;
+}
+
+.footer {
+    max-width: 1000px;
+    margin: 50px  auto;
+    background:#d3b6c2;
+    color: #4718b3;
 }
