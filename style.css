@@ -1,34 +1,49 @@
 body {
-    background: #e9d4d2;
+  background: #e9d4d2;
 }
 
 main {
-    max-width: 1000px;
-    margin: 0 auto;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
-#top {
-    background:#d3b6c2;
+.navigation {
+  background: #d3b6c2;
+  padding: 14px;
+  border-radius: 10px;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.navigation__link {
+    color: #0b4d79;
+    margin: 0 80px;
+    
+}
+
+.navigation__link--homepage {
+    color: #bd4021;
+    
 }
 
 h1 {
-    color: #253d5b;
+  color: #253d5b;
 }
 h2 {
-    color:#5a5d70;
+  color: #5a5d70;
 }
 
 h3 {
-    color: #6e8db9;
+  color: #6e8db9;
 }
 .description {
-    color: #bd4021;
-    border-bottom: 3px dashed #b999a6;
+  color: #bd4021;
+  border-bottom: 3px dashed #b999a6;
 }
 
 .footer {
-    max-width: 1000px;
-    margin: 50px  auto;
-    background:#d3b6c2;
-    color: #4718b3;
+  max-width: 1000px;
+  margin: 50px auto;
+  background: #d3b6c2;
+  color: #4718b3;
 }
