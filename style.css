@@ -5,6 +5,7 @@ body {
 main {
   max-width: 1000px;
   margin: 0 auto;
+  padding: 50px 0;
 }
 
 .navigation {
@@ -13,17 +14,16 @@ main {
   border-radius: 10px;
   width: 1200px;
   margin: 0 auto;
+  position: fixed;
 }
 
 .navigation__link {
-    color: #0b4d79;
-    margin: 0 80px;
-    
+  color: #0b4d79;
+  margin: 0 80px;
 }
 
 .navigation__link--homepage {
-    color: #bd4021;
-    
+  color: #bd4021;
 }
 
 h1 {
