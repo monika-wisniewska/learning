@@ -1,5 +1,7 @@
 body {
   background: #e9d4d2;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 main {
@@ -12,8 +14,8 @@ main {
   background: #d3b6c2;
   padding: 14px;
   border-radius: 10px;
-  width: 1200px;
-  margin: 0 auto;
+  width: 1000px;
+
   position: fixed;
 }
 
@@ -46,4 +48,9 @@ h3 {
   margin: 50px auto;
   background: #d3b6c2;
   color: #4718b3;
+}
+
+.list__item {
+  list-style: upper-roman;
+
 }
