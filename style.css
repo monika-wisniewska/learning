@@ -54,3 +54,10 @@ h3 {
   list-style: upper-roman;
 
 }
+.table {
+  border: solid 3px #5a5d70;
+}
+.table__caption {
+  border: solid 5px #5a5d70;
+  background:#cbcedd;
+}
