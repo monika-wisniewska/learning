@@ -1,3 +1,12 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
 body {
   background: #e9d4d2;
   max-width: 1000px;
@@ -52,12 +61,11 @@ h3 {
 
 .list__item {
   list-style: upper-roman;
-
 }
 .table {
   border: solid 3px #5a5d70;
 }
 .table__caption {
   border: solid 5px #5a5d70;
-  background:#cbcedd;
+  background: #cbcedd;
 }
